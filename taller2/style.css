@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#notasContainer {
+    margin-top: 20px;
+}
+
+.nota {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.nota.active {
+    background-color: #e0ffe0;
+}
+
+.nota.editada {
+    background-color: #ffffe0; 
+}
